@@ -32,6 +32,15 @@ buildExpired = false
     Title = "TechnoTherapy"
     Content = "Thoughts on technology, tools, and staying sane while building things."
 
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
+
 [[menu.main]]
   name = "Home"
   url = "/"
@@ -48,6 +57,11 @@ buildExpired = false
   weight = 3
 
 [[menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 4
+
+[[menu.main]]
   name = "Search"
   url = "/search/"
-  weight = 4
+  weight = 5
