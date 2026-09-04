@@ -1,0 +1,26 @@
+baseURL = 'https://example.org/'
+locale = 'en-us'
+title = 'TechnoTherapy'
+theme = 'ananke'
+
+[params]
+  description = "TechnoTherapy — thoughts on technology, tools, and staying sane while building things."
+  background_color_class = "bg-black"
+
+[pagination]
+  pagerSize = 10
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 2
+
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 3
