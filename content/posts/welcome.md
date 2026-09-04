@@ -4,6 +4,4 @@ draft = false
 title = 'Welcome to TechnoTherapy'
 +++
 
-Welcome to **TechnoTherapy** — a blog about technology, tools, and keeping your sanity while building things.
-
-This is the first post. More to come soon.
+Here is where a list of blogs that I like will go in the spirit of finding new things to read. In the meantime this is a placeholder test post.
