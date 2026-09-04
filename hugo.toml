@@ -11,6 +11,12 @@ buildExpired = false
 [pagination]
   pagerSize = 10
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.footnote]
+        enable = true
+
 [outputs]
   home = ["HTML", "RSS", "JSON"]
 
