@@ -1,14 +1,36 @@
 baseURL = 'https://example.org/'
 locale = 'en-us'
 title = 'TechnoTherapy'
-theme = 'ananke'
+theme = 'PaperMod'
 
-[params]
-  description = "TechnoTherapy — thoughts on technology, tools, and staying sane while building things."
-  background_color_class = "bg-black"
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
 
 [pagination]
   pagerSize = 10
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  env = "production"
+  description = "TechnoTherapy — thoughts on technology, tools, and staying sane while building things."
+  author = "Charles Smith"
+  defaultTheme = "auto"
+  ShowShareButtons = false
+  ShowReadingTime = true
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowCodeCopyButtons = true
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+
+  [params.homeInfoParams]
+    Title = "TechnoTherapy"
+    Content = "Thoughts on technology, tools, and staying sane while building things."
 
 [[menu.main]]
   name = "Home"
@@ -24,3 +46,8 @@ theme = 'ananke'
   name = "About"
   url = "/about/"
   weight = 3
+
+[[menu.main]]
+  name = "Search"
+  url = "/search/"
+  weight = 4
