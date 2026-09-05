@@ -14,8 +14,7 @@ buildExpired = false
 [markup]
   [markup.goldmark]
     [markup.goldmark.extensions]
-      [markup.goldmark.extensions.footnote]
-        enable = true
+      footnote = true
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
